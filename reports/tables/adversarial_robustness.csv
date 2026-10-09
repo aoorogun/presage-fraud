@@ -1,0 +1,21 @@
+experiment,setting,pr_auc,recall_at_1pct_fpr,n_features_changed
+clean,none,0.9772266527586623,0.9967741935483871,
+evasion_mimicry,victim_coached@alpha=0.25,0.9709636016933463,0.9903225806451613,9.0
+evasion_mimicry,victim_coached@alpha=0.5,0.9640059964347273,0.9903225806451613,9.0
+evasion_mimicry,victim_coached@alpha=0.75,0.9451836222525538,0.9774193548387097,9.0
+evasion_mimicry,victim_coached@alpha=1.0,0.8823723973101056,0.9612903225806452,9.0
+evasion_mimicry,mule_camouflage@alpha=0.25,0.9784718972798946,0.9935483870967742,13.0
+evasion_mimicry,mule_camouflage@alpha=0.5,0.9777007616197577,0.9903225806451613,13.0
+evasion_mimicry,mule_camouflage@alpha=0.75,0.9746175582287867,0.9903225806451613,13.0
+evasion_mimicry,mule_camouflage@alpha=1.0,0.9440476874684061,0.9838709677419355,13.0
+evasion_mimicry,both@alpha=0.25,0.9717299127754548,0.9838709677419355,22.0
+evasion_mimicry,both@alpha=0.5,0.9644949916256956,0.9838709677419355,22.0
+evasion_mimicry,both@alpha=0.75,0.9417989349026815,0.9774193548387097,22.0
+evasion_mimicry,both@alpha=1.0,0.8102793880528564,0.896774193548387,22.0
+label_poisoning,10% train frauds relabelled legit,0.976328464562848,1.0,
+label_poisoning,30% train frauds relabelled legit,0.9445663027891958,0.967741935483871,
+label_poisoning,50% train frauds relabelled legit,0.8960806293867211,0.9354838709677419,
+feature_dropout,5% of features zeroed (mean of 5 draws),0.9551213059069138,0.975483870967742,
+feature_dropout,10% of features zeroed (mean of 5 draws),0.9422733205927036,0.9432258064516128,
+feature_dropout,20% of features zeroed (mean of 5 draws),0.9033621293205464,0.9058064516129033,
+feature_dropout,40% of features zeroed (mean of 5 draws),0.7052879180663082,0.7741935483870968,

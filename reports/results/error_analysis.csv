@@ -1,0 +1,13 @@
+error_type,category,count,share,example_txn_ids,note
+false_negative,"scam to recruited genuine customer account (old, normal history)",0,0.0,,mule hides inside a real account
+false_negative,scam beneficiary with limited history (<=2 prior inbound),0,0.0,,cold-start beneficiary
+false_negative,"post sudden-drift structuring (day>=100, small split payments)",0,0.0,,strategy change
+false_negative,cross-bank scam payment,0,0.0,,partial visibility
+false_negative,low-value purchase scam,0,0.0,,small amounts blend in
+false_negative,romance scam (repeat moderate payments),0,0.0,,payments resemble habitual transfers
+false_negative,other,0,0.0,,
+false_positive,"legitimate large first-time transfer (new payee, >30% of balance)",26,0.2184873949579832,317301 317763 320097 325976 333043,house deposit / family transfer pattern
+false_positive,legitimate payment to a young beneficiary account,5,0.04201680672268908,324678 327987 346048 351372 374948,new business / neo-bank account
+false_positive,payment from a new device,1,0.008403361344537815,324127,device upgrade
+false_positive,payee with many new senders (marketplace-like),0,0.0,,legitimate high fan-in
+false_positive,mule-account background activity labelled legitimate,44,0.3697478991596639,313874 316796 317818 320256 320922,payment to mule account that was not a scam payment (label noise by design)

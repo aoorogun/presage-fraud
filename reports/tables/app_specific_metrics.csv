@@ -1,0 +1,2 @@
+model,scam_payments,scam_detected_pre_payment,recall_pre_payment,mule_accounts,mule_flagged_before_first_victim_payment,mule_flagged_before_report_confirmation,mean_warning_lead_days,simulated_gbp_prevented_expected,simulated_gbp_total_scam_value,policy_thresholds,intervention_rate,hold_rate,policy_cost,no_action_cost
+presage:full,310,310,1.0,79,79,79,2.9214135021097047,211106.18839605985,222217.04041690513,"[0.07988673991336413, 0.07988673991336413, 0.07988673991336413]",0.006779071788632018,0.006779071788632018,15970.852020845268,222217.04041690513

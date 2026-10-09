@@ -1,0 +1,14 @@
+{
+ "p": 0.000261465125940522,
+ "stat": 23.579454253611484,
+ "mean_rank": {
+  "presage:full": 3.375,
+  "presage:concat": 2.771,
+  "presage:attention": 3.229,
+  "presage:transformer_seq": 2.875,
+  "xgboost_tabular+graph_full": 4.438,
+  "catboost_tabular+graph_full": 4.312
+ },
+ "critical_difference": 1.539175915871867,
+ "n_blocks": 24
+}

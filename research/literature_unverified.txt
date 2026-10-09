@@ -1,0 +1,26 @@
+Credit Card Fraud Detection: A Realistic Modeling and a Novel Learning Strategy | lookup error HTTP Error 429: Too Many Requests
+Financial Fraud Detection Based on Machine Learning: A Systematic Literature Review | lookup error HTTP Error 429: Too Many Requests
+Considerations for Using Artificial Intelligence to Manage Authorized Push Payment (APP) Scams | lookup error HTTP Error 429: Too Many Requests
+Machine Learning for Digital Payment Fraud Detection in Financial Institutions: A Review of Methods, Explainability, and Performance | lookup error HTTP Error 429: Too Many Requests
+Learning under Concept Drift: A Review | no confident Crossref match (best sim 0.57)
+Modeling Relational Data with Graph Convolutional Networks | no confident Crossref match (best sim 0.62)
+Heterogeneous Graph Transformer | lookup error HTTP Error 429: Too Many Requests
+EvolveGCN: Evolving Graph Convolutional Networks for Dynamic Graphs | lookup error <urlopen error [Errno 104] Connection reset by peer>
+Heterogeneous Graph Attention Network | no confident Crossref match (best sim 0.60)
+Anti-Money Laundering in Bitcoin: Experimenting with Graph Convolutional Networks for Financial Forensics | no confident Crossref match (best sim 0.66)
+Elliptic++: Elliptic Dataset Extension | no confident Crossref match (best sim 0.36)
+Federated Optimization in Heterogeneous Networks | no confident Crossref match (best sim 0.55)
+Communication-Efficient Learning of Deep Networks from Decentralized Data | no confident Crossref match (best sim 0.49)
+Deep Learning with Differential Privacy | no confident Crossref match (best sim 0.59)
+Overcoming catastrophic forgetting in neural networks | no confident Crossref match (best sim 0.75)
+Explainable Graph Neural Networks: GNNExplainer | no confident Crossref match (best sim 0.63)
+GNNExplainer: Generating Explanations for Graph Neural Networks | lookup error HTTP Error 429: Too Many Requests
+A Unified Approach to Interpreting Model Predictions | no confident Crossref match (best sim 0.50)
+Attention is not Explanation | no confident Crossref match (best sim 0.46)
+Temporal Graph Networks for Deep Learning on Dynamic Graphs | no confident Crossref match (best sim 0.65)
+Inductive Representation Learning on Temporal Graphs | no confident Crossref match (best sim 0.72)
+node2vec: Scalable Feature Learning for Networks | lookup error HTTP Error 429: Too Many Requests
+Graph Neural Network for Fraud Detection via Spatial-Temporal Attention | lookup error HTTP Error 429: Too Many Requests
+Federated Learning for Anti-Money Laundering | lookup error HTTP Error 429: Too Many Requests
+Money Laundering Detection with Graph Neural Networks | lookup error HTTP Error 429: Too Many Requests
+Mule account detection | lookup error HTTP Error 429: Too Many Requests

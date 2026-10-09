@@ -1,0 +1,18 @@
+{
+ "events": 20000,
+ "scored": 15981,
+ "wall_s": 540.8293636610006,
+ "throughput_eps": 36.98024061529374,
+ "latency_ms_p50": 31.381566999698407,
+ "latency_ms_p95": 64.05943200024922,
+ "latency_ms_p99": 71.60817960011629,
+ "alerts": 127,
+ "alert_rate": 0.007946936987672862,
+ "frauds_in_stream": 63,
+ "frauds_intervened_pre_payment": 63,
+ "recall_any_intervention": 1.0,
+ "holds": 76,
+ "precision_of_hold": 0.7763157894736842,
+ "transport": "in-memory",
+ "note": "payments are scored BEFORE settlement in event order; values simulated"
+}

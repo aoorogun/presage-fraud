@@ -1,0 +1,7 @@
+# Defaults used by the scripts (values mirror the code; scripts take CLI flags, this file documents them).
+seed: 42
+split: {train: 0.6, val: 0.2, test: 0.2, kind: chronological_by_day}
+population: customer_initiated_payments
+simulation: {customers: 4000, payees: 10000, mule_networks: 120, days: 120, scam_rate_per_day: 3.0, sudden_drift_day: 100}
+graph: {snapshot_step_days: 4, label_delay_days: 3}
+presage: {epochs: 12, mc_dropout_samples: 20}

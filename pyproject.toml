@@ -1,0 +1,27 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "presage-fraud"
+version = "0.1.0"
+description = "Privacy-preserving, drift-aware temporal heterogeneous graph framework for pre-transaction APP fraud and money-mule detection (research prototype)"
+requires-python = ">=3.10"
+license = { text = "Apache-2.0" }
+dependencies = [
+  "numpy", "pandas", "scipy", "scikit-learn", "pyarrow", "pyyaml", "networkx", "matplotlib",
+  "torch", "torch_geometric", "xgboost", "lightgbm", "catboost", "shap", "river",
+  "mlflow", "fastapi", "uvicorn", "pydantic", "httpx",
+]
+
+[project.optional-dependencies]
+dev = ["pytest", "jupyter", "nbconvert", "nbformat"]
+streaming = ["kafka-python"]
+monitoring = ["evidently", "prometheus-client"]
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+filterwarnings = ["ignore::DeprecationWarning", "ignore::FutureWarning", "ignore::UserWarning"]

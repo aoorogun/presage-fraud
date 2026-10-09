@@ -1,0 +1,15 @@
+data/raw/
+data/external/
+data/interim/
+data/processed/
+data/simulated/
+mlruns/
+models/serving/*.json
+models/serving/*.npy
+*.parquet
+__pycache__/
+.ipynb_checkpoints/
+.env
+*.log
+.venv/
+mlflow.db
